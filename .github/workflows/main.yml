@@ -41,7 +41,7 @@ jobs:
           publish-dir: './build/web'
           production-branch: main
           deploy-message: 'Deploy from Github Actions'
-          github-token: ${{ secrets.GITHUB_ACTIONS_TOKEN }}
+          github-token: ${{ secrets.ACTIONS_TOKEN }}
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_ACCESS_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
