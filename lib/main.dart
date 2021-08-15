@@ -21,7 +21,7 @@ class Main extends StatelessWidget {
       child: GetMaterialApp(
         enableLog: false,
         debugShowCheckedModeBanner: false,
-        title: 'SV',
+        title: 'Sorting Visualizer',
         initialRoute: '/',
         themeMode: ThemeMode.dark,
         darkTheme: ThemeData.dark(),
@@ -29,7 +29,6 @@ class Main extends StatelessWidget {
           GetPage(
             name: '/',
             page: () {
-              document.title = 'Home';
               return const HomePage();
             },
           ),
